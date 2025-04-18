@@ -120,7 +120,10 @@ const KeyIndicatorsSection = () => {
                         overflow: 'hidden'
                       }}
                     >
-                      {typeof indicator.icon === 'string' && indicator.icon.startsWith('/') ? (
+                      {/* {typeof indicator.icon === 'string' && indicator.icon.startsWith('/') ? ( */}
+                      {typeof indicator.icon === 'string' ? (
+                        console.log(indicator.icon),
+                        console.log(new Error().stack),
                         <img 
                           src={indicator.icon} 
                           alt={indicator.title}
