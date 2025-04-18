@@ -65,7 +65,7 @@ export const siteContent = {
         //   value: "154,000",
         //   trend: "down",
           description: "Principales indicadores de tecnología",
-          icon: "https://g4rb4sh.github.io/icons/tech.png",
+          icon: "https://g4rb4sh.github.io/observatorio/icons/tech.png",
           // color: "#FF5722",
         },
         {
