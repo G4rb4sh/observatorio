@@ -56,7 +56,7 @@ export const siteContent = {
         //   value: "US$ 9.3 B",
         //   trend: "up",
           description: "Principales indicadores de energía",
-          icon: "/icons/energia.png",
+          icon: "/public/icons/energia.png",
           color: "#2196F3",
         },
         {
@@ -65,7 +65,7 @@ export const siteContent = {
         //   value: "154,000",
         //   trend: "down",
           description: "Principales indicadores de tecnología",
-          icon: "/icons/tech.png",
+          icon: "https://g4rb4sh.github.io/observatorio/icons/tech.png",
           // color: "#FF5722",
         },
         {
