@@ -5,7 +5,7 @@
 export const siteContent = {
     // Header content
     header: {
-      logo: "/logo.jpg", // Path to logo image
+      logo: "https://g4rb4sh.github.io/observatorio/logo.jpg", // Path to logo image
       title: "Observatorio MIEM",
       navigation: [
         { id: "home", label: "Inicio", url: "/" },
@@ -23,7 +23,7 @@ export const siteContent = {
       subtitle: "Acceda a información relevante del sector industrial, energético y minero de Uruguay",
       ctaButton: "Explorar Datos",
       ctaUrl: "/datos",
-      backgroundImage: "/hero-background.jpg", // Path to background image
+      backgroundImage: "https://g4rb4sh.github.io/observatorio/hero-background.jpg", // Path to background image
     },
     
     // Key indicators section
@@ -38,7 +38,7 @@ export const siteContent = {
         //   trend: "up", // can be "up", "down", or "neutral"
           description: "Principales variables económicas, industriales, energéticas y tecnológicas de Uruguay",
           // icon: "trending_up", // Material icon name
-          icon: "/icons/principales indicadores.jpg",
+          icon: "https://g4rb4sh.github.io/observatorio/icons/principales indicadores.jpg",
           color: "#4CAF50", // Color for this indicator
         },
         {
@@ -47,7 +47,7 @@ export const siteContent = {
         //   value: "1,650 ktep",
         //   trend: "neutral",
           description: "Principales indicadores de industria",
-          icon: "/icons/industria.jpeg",
+          icon: "https://g4rb4sh.github.io/observatorio/icons/industria.jpeg",
           color: "#FFC107",
         },
         {
@@ -56,7 +56,7 @@ export const siteContent = {
         //   value: "US$ 9.3 B",
         //   trend: "up",
           description: "Principales indicadores de energía",
-          icon: "/icons/energia.png",
+          icon: "https://g4rb4sh.github.io/observatorio/icons/energia.png",
           color: "#2196F3",
         },
         {
@@ -74,7 +74,7 @@ export const siteContent = {
           //   value: "154,000",
           //   trend: "down",
             description: "Principales indicadores de mipymes",
-            icon: "/icons/Mipymes.png",
+            icon: "https://g4rb4sh.github.io/observatorio/icons/Mipymes.png",
             color: "#FF5722",
           },
           {
@@ -83,7 +83,7 @@ export const siteContent = {
           //   value: "154,000",
           //   trend: "down",
             description: "Reporte de ODS",
-            icon: "/icons/mineria.jpg",
+            icon: "https://g4rb4sh.github.io/observatorio/icons/mineria.jpg",
             color: "#FF5722",
           },
           {
@@ -92,7 +92,7 @@ export const siteContent = {
           //   value: "154,000",
           //   trend: "down",
             description: "Reporte de ODS",
-            icon: "/icons/ods.jpeg",
+            icon: "https://g4rb4sh.github.io/observatorio/icons/ods.jpeg",
             color: "#FF5722",
           },
       ]
@@ -109,7 +109,7 @@ export const siteContent = {
           title: "Informe Anual del Sector Industrial 2024",
           description: "Análisis completo del desempeño industrial en el último año",
           date: "2024-03-15",
-          image: "/informes/eco-industria-web.jpg",
+          image: "https://g4rb4sh.github.io/observatorio/informes/eco-industria-web.jpg",
           url: "/informes/informe-anual-2024",
         },
         {
@@ -117,7 +117,7 @@ export const siteContent = {
           title: "Perspectivas Energéticas 2025-2030",
           description: "Proyecciones y tendencias del sector energético para los próximos 5 años",
           date: "2024-02-20",
-          image: "/informes/_SL_20161031_029.jpg",
+          image: "https://g4rb4sh.github.io/observatorio/informes/_SL_20161031_029.jpg",
           url: "/informes/perspectivas-energeticas",
         },
         {
@@ -125,7 +125,7 @@ export const siteContent = {
           title: "Mi Casa Eficiente: un manual inteligente para ahorrar energía",
           description: "Evolución y comportamiento del sector minero en el primer trimestre",
           date: "2025-03-05",
-          image: "/informes/casa-eficiente.png",
+          image: "https://g4rb4sh.github.io/observatorio/informes/casa-eficiente.png",
           url: "/informes/casa-eficiente",
         },
         // {
@@ -150,14 +150,14 @@ export const siteContent = {
           id: "viz1",
           title: "Matriz Energética",
           description: "Composición y evolución de la matriz energética uruguaya",
-          image: "/viz-energy-matrix.jpg",
+          image: "https://g4rb4sh.github.io/observatorio/viz-energy-matrix.jpg",
           url: "/visualizaciones/matriz-energetica",
         },
         {
           id: "viz2",
           title: "Exportaciones por Sector",
           description: "Distribución de exportaciones industriales por sector económico",
-          image: "/viz-exports.jpg",
+          image: "https://g4rb4sh.github.io/observatorio/viz-exports.jpg",
           url: "/visualizaciones/exportaciones-sector",
         },
       ]
@@ -174,7 +174,7 @@ export const siteContent = {
           title: "Red Uruguaya de Propiedad Intelectual invita a webinar por el Día Mundial de la Propiedad Intelectual",
           description: "En el marco de los festejos por el Día Mundial de la Propiedad Intelectual, que se celebra el 26 de abril, la Red Uruguaya de Propiedad Intelectual invita a participar del webinar La Propiedad Intelectual y la Industria de la Música.",
           date: "2025-04-11",
-          image: "/noticias/Sin título_3.jpg",
+          image: "https://g4rb4sh.github.io/observatorio/noticias/Sin título_3.jpg",
           url: "/noticias/programa-pymes",
         },
         {
@@ -182,7 +182,7 @@ export const siteContent = {
           title: "Ministra Cardona propuso generar una red de parques científico-tecnológicos para dar “un salto cualitativo”",
           description: "En el acto por la designación del Parque Tecnológico Industrial del Cerro (PTI) como parque científico-tecnológico, la ministra Fernanda Cardona dijo que estas instituciones —y la innovación en general— deben formar parte de una política pública “mancomunada” entre actores como el Estado —cuyo rol es protagónico—, el sector privado y la academia. Al respecto, dijo que una red de parques científico-tecnológicos es necesaria para articular la ciencia básica y la aplicada. “Tenemos el desarrollo institucional. Tenemos las capacidades. Tenemos que trabajar distinto”, afirmó la secretaria de Estado.",
           date: "2025-04-11",
-          image: "/noticias/Ministra Cardona.png",
+          image: "https://g4rb4sh.github.io/observatorio/noticias/Ministra Cardona.png",
           url: "/noticias/record-renovables",
         },
         {
@@ -190,7 +190,7 @@ export const siteContent = {
           title: "MIEM promueve construcción de estrategia comercial para grupo de apicultores fraccionadores de miel de Cerro Largo",
           description: "El área de Desarrollo Territorial de la Dirección Nacional de Artesanías (Dinapyme) del Ministerio de Industria, Energía y Minería (MIEM) promueve una consultoría destinada a apoyar a un grupo de apicultores fraccionadores de miel de Cerro Largo en temas de comercialización y marketing.",
           date: "2025-04-07",
-          image: "/noticias/Construccion de estrategia comercial.png",
+          image: "https://g4rb4sh.github.io/observatorio/noticias/Construccion de estrategia comercial.png",
           url: "/noticias/exploracion-rivera",
         },
       ]
