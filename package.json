@@ -1,7 +1,7 @@
 {
   "name": "observatorio",
   "version": "0.1.0",
-  "homepage": "https://G4rb4sh.github.io/observatorio",
+  "homepage": "https://g4rb4sh.github.io/observatorio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
