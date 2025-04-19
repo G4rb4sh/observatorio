@@ -78,7 +78,7 @@ const DataVisualizationSection = () => {
         whileInView="visible"
         viewport={{ once: true, amount: 0.1 }}
       >
-        <Grid container spacing={4}>
+        {/* <Grid container spacing={4}>
           {dataVisualization.featured.map((viz, index) => (
             <Grid item xs={12} md={6} key={viz.id}>
               <motion.div variants={itemVariants}>
@@ -118,7 +118,7 @@ const DataVisualizationSection = () => {
                       flexDirection: { xs: 'column', md: 'row' }
                     }}
                   >
-                    {/* Only display image if one is provided */}
+                    {/* Only display image if one is provided 
                     {viz.image && (
                       <CardMedia
                         component="img"
@@ -171,7 +171,7 @@ const DataVisualizationSection = () => {
                         {viz.title}
                       </Typography>
                       
-                      {/* Description text */}
+                      {/* Description text *
                       {viz.description && (
                         <Typography 
                           variant="body1" 
@@ -206,7 +206,8 @@ const DataVisualizationSection = () => {
               </motion.div>
             </Grid>
           ))}
-        </Grid>
+        </Grid> */}
+        <img src="https://g4rb4sh.github.io/observatorio/data/dashboard.png" alt="Data Visualization" style={{ width: '75%', height: 'auto', display: 'block', margin: '0 auto' }} />
       </motion.div>
 
       {/* CTA button */}

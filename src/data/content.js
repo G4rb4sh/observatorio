@@ -117,7 +117,7 @@ export const siteContent = {
           title: "Perspectivas Energéticas 2025-2030",
           description: "Proyecciones y tendencias del sector energético para los próximos 5 años",
           date: "2024-02-20",
-          image: "https://g4rb4sh.github.io/observatorio/informes/_SL_20161031_029.jpg",
+          image: "https://g4rb4sh.github.io/observatorio/informes/energeticas.jpg",
           url: "/informes/perspectivas-energeticas",
         },
         {
