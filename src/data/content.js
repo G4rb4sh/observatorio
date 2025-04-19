@@ -56,7 +56,7 @@ export const siteContent = {
         //   value: "US$ 9.3 B",
         //   trend: "up",
           description: "Principales indicadores de energía",
-          icon: "/public/icons/energia.png",
+          icon: "/icons/energia.png",
           color: "#2196F3",
         },
         {

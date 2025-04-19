@@ -1,7 +1,7 @@
 {
   "name": "observatorio",
   "version": "0.1.0",
-  "homepage": "https://G4rb4sh.github.io/",
+  "homepage": "https://G4rb4sh.github.io/observatorio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
